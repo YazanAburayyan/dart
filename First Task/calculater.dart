@@ -31,14 +31,14 @@ int Division(int InNumber1, int InNumber2) {
 void main(List<String> args) {
   int acsessNumber = 0;
 
+  print('enter num1 :');
+  int? num1 = int.parse(stdin.readLineSync()!);
+
+  print('enter num2 :');
+  int? num2 = int.parse(stdin.readLineSync()!);
+
   while (acsessNumber != 201) {
     int res = 0;
-
-    print('enter num1 :');
-    int? num1 = int.parse(stdin.readLineSync()!);
-
-    print('enter num2 :');
-    int? num2 = int.parse(stdin.readLineSync()!);
 
     print('what is the option you want (+ * / -)?');
     String? op = stdin.readLineSync();
